@@ -34,12 +34,18 @@
         </nav>
 
         <ul class="contact-nav-list">
-          <li>
+          <li class="contact-nav-item">
+            <svg class="contact-nav-icon" width="12px" height="16px">
+              <use href="./images/symbol-defs.svg#icon-envelope-hover" />
+            </svg>
             <a href="mailto:info@devstudio.com" class="link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="contact-nav-item">
+            <svg class="contact-nav-icon" width="10px" height="16px">
+              <use href="./images/symbol-defs.svg#icon-smartphone" />
+            </svg>
             <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -62,6 +68,11 @@
         <div class="container">
           <ul class="features-list">
             <li class="features-item">
+              <div class="features-icon-border">
+                <svg class="features-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="benefits">Внимание к деталям</h3>
               <p class="benefits-title">
                 Идейные соображения, а также начало повседневной работы по
@@ -69,6 +80,11 @@
               </p>
             </li>
             <li class="features-item">
+              <div class="features-icon-border">
+                <svg class="features-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="benefits">Пунктуальность</h3>
               <p class="benefits-title">
                 Задача организации, в особенности же рамки и место обучения
@@ -76,6 +92,11 @@
               </p>
             </li>
             <li class="features-item">
+              <div class="features-icon-border">
+                <svg class="features-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="benefits">Планирование</h3>
               <p class="benefits-title">
                 Равным образом консультация с широким активом в значительной
@@ -83,6 +104,11 @@
               </p>
             </li>
             <li class="features-item">
+              <div class="features-icon-border">
+                <svg class="features-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="benefits">Современные технологии</h3>
               <p class="benefits-title">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -94,7 +120,7 @@
       </section>
 
       <!-- Чем мы занимаемся -->
-      <section class="section">
+      <section class="section-we-do">
         <div class="container">
           <h2>Чем мы занимаемся</h2>
           <ul class="we-do-list">
@@ -138,9 +164,35 @@
                 alt="Igor_Demyanenko"
                 width="270"
               />
-              <h3 class="team-name">Игорь Демьяненко</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="team-cover"><h3 class="team-name">Игорь Демьяненко</h3>
+                <p class="team-text">Product Designer</p></div>
+              
+              <ul class="team-icon-list">
+                <li class="team-socseti-icon"><a href="http://insatgram.com" class="team-icon">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a></li>
+                <li class="team-socseti-icon"><a href="http://twitter.com" class="team-icon">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a></li>
+                <li class="team-socseti-icon"><a href="http://insatgram.com" class="team-icon">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a></li>
+                <li class="team-socseti-icon"><a href="http://insatgram.com" class="team-icon">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a></li>
+
+              </ul>
+    
             </li>
+
             <li class="team-item">
               <img
                 class="img"
@@ -148,8 +200,32 @@
                 alt="Olga Repina"
                 width="270"
               />
-              <h3 class="team-name">Ольга Репина</h3>
-              <p class="team-text">Frontend Developer</p>
+              <div class="team-cover"><h3 class="team-name">Ольга Репина</h3>
+                <p class="team-text">Frontend Developer</p></div>
+              
+              <ul class="team-icon-list">
+                <li class="team-socseti-icon"><a href="http://insatgram.com" class="team-icon">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a></li>
+                <li class="team-socseti-icon"><a href="http://twitter.com" class="team-icon">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a></li>
+                <li class="team-socseti-icon"><a href="http://insatgram.com" class="team-icon">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a></li>
+                <li class="team-socseti-icon"><a href="http://insatgram.com" class="team-icon">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a></li>
+
+              </ul>
             </li>
             <li class="team-item">
               <img
@@ -158,8 +234,33 @@
                 alt="Nikolay Tarasov"
                 width="270"
               />
-              <h3 class="team-name">Николай Тарасов</h3>
-              <p class="team-text">Marketing</p>
+              <div class="team-cover"><h3 class="team-name">Николай Тарасов</h3>
+                <p class="team-text">Marketing</p></div>
+              
+              
+              <ul class="team-icon-list">
+                <li class="team-socseti-icon"><a href="http://insatgram.com" class="team-icon">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a></li>
+                <li class="team-socseti-icon"><a href="http://twitter.com" class="team-icon">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a></li>
+                <li class="team-socseti-icon"><a href="http://insatgram.com" class="team-icon">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a></li>
+                <li class="team-socseti-icon"><a href="http://insatgram.com" class="team-icon">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a></li>
+
+              </ul>
             </li>
             <li class="team-item">
               <img
@@ -168,22 +269,90 @@
                 alt="Mikhail Ermakov"
                 width="270"
               />
-              <h3 class="team-name">Михаил Ермаков</h3>
-              <p class="team-text">UI Designer</p>
+              <div class="team-cover"><h3 class="team-name">Михаил Ермаков</h3>
+                <p class="team-text">UI Designer</p></div>
+              
+              
+              <ul class="team-icon-list">
+                <li class="team-socseti-icon"><a href="http://insatgram.com" class="team-icon">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a></li>
+                <li class="team-socseti-icon"><a href="http://twitter.com" class="team-icon">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a></li>
+                <li class="team-socseti-icon"><a href="http://insatgram.com" class="team-icon">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a></li>
+                <li class="team-socseti-icon"><a href="http://insatgram.com" class="team-icon">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a></li>
+
+              </ul>
             </li>
           </ul>
         </div>
       </section>
+
+       <!-- Наши клиенты -->
+    <section class="section">
+      <div class="container">
+        <h2 class="title-clients">Постоянные клиенты</h2>
+        <ul class="list-clients">
+          <li class="clients-item">
+            <a href="" class="clients-link">
+              <svg width="106" height="60">
+                <use href="./images/icons.svg#icon-client1"></use>
+              </svg></a>
+          </li>
+          <li class="clients-item">
+            <a href="" class="clients-link">
+              <svg width="106" height="60">
+                <use href="./images/icons.svg#icon-client2"></use>
+              </svg></a>
+          </li>
+          <li class="clients-item">
+            <a href="" class="clients-link">
+              <svg width="106" height="60">
+                <use href="./images/icons.svg#icon-client3"></use>
+              </svg></a>
+          </li>
+          <li class="clients-item">
+            <a href="" class="clients-link">
+              <svg width="106" height="60">
+                <use href="./images/icons.svg#icon-client4"></use>
+              </svg></a>
+          </li>
+          <li class="clients-item">
+            <a href="" class="clients-link">
+              <svg width="106" height="60">
+                <use href="./images/icons.svg#icon-client5"></use>
+              </svg></a>
+          </li>
+          <li class="clients-item">
+            <a href="" class="clients-link">
+              <svg width="106" height="60">
+                <use href="./images/icons.svg#icon-client6"></use>
+              </svg></a>
+          </li>
+        </ul>
     </main>
 
     <!-- Футер -->
     <footer>
-      <div class="container">
+      <div class="container foot-cont">
+        <div class="logo-adress">
+        <a href="/" class="logofooter"
+        ><span class="web">Web</span><span class="studio">Studio</span></a>
         <address>
-          <a href="/" class="logo"
-            ><span class="web">Web</span><span class="studio">Studio</span></a
-          >
-          <p class="adress-text">г. Киев, пр-т Леси Украинки, 26</p>
+                  <p class="adress-text">г. Киев, пр-т Леси Украинки, 26</p>
           <ul>
             <li class="adress-contact">
               <a href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -194,6 +363,34 @@
           </ul>
         </address>
       </div>
+        <div class="joinus">
+          <b class="join-text">Присоединяйтесь</b>
+          <ul class="join-icon-list">
+            <li class="team-socseti-icon"><a href="http://insatgram.com" class="join-icon">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a></li>
+            <li class="team-socseti-icon"><a href="http://twitter.com" class="join-icon">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a></li>
+            <li class="team-socseti-icon"><a href="http://insatgram.com" class="join-icon">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a></li>
+            <li class="team-socseti-icon"><a href="http://insatgram.com" class="join-icon">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a></li>
+
+          </ul>
+        </div>
+      </div>
+      
     </footer>
   </body>
 </html>
