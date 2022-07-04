@@ -151,8 +151,7 @@ button:focus .servbut:hover {
 .nav-item {
   display: block;
   margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  
 }
 
 .nav-item:nth-last-child(1) {
@@ -164,13 +163,19 @@ button:focus .servbut:hover {
 }
 
 .site-nav .link {
+  display: block;
   color: var(--primary-text-color);
   text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .link-current {
+  display: block;
   color: var(--accent-color);
   text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contact-nav-list {
@@ -527,8 +532,15 @@ address {
 
 /* ALL portfolio */
 
+
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .button-filter {
-  display: flex;
+    display: flex;
+    margin-bottom: 50px;
   justify-content: center;
 }
 
@@ -552,7 +564,7 @@ address {
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
-  margin-bottom: 94px;
+  
 }
 
 .portfolio-name {
