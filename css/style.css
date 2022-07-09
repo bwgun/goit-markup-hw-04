@@ -205,9 +205,11 @@ button:focus .servbut:hover {
 
 .contact-nav-icon {
   margin-right: 10px;
+  
 }
 
 .contact-nav-list .link {
+  display: flex;
   text-decoration: none;
 }
 
@@ -218,14 +220,22 @@ button:focus .servbut:hover {
 
 .contact-nav-list .link:hover,
 .contact-nav-list .link:focus {
+  fill: var(--accent-color);
   color: var(--accent-color);
 }
 
 /* Герой */
+
+h1 {    
+  width: 693px;
+  margin: auto;
+}
+
+
 .hero {
-  position: relative;
+  
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -235,6 +245,8 @@ button:focus .servbut:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .hero .container {
@@ -446,6 +458,10 @@ h3 {
 
 /* Footer */
 
+.logofooter {
+  margin-right: auto;
+}
+
 .logofooter .web {
   color: #1f89df;
 }
@@ -612,6 +628,8 @@ address {
 .button-portofolio:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
+  
+
 }
 
 .button-list {
